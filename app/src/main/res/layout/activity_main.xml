@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SurfaceView
+        android:id="@+id/surfaceView01"
+        android:layout_width="30px"
+        android:layout_height="30px"
+        android:layout_marginLeft="-80px"
+        android:layout_marginTop="340px" />
+
+    <Button
+        android:id="@+id/openHJ"
+        android:layout_width="250px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="100px"
+        android:text="打开喉镜" />
+
+    <Button
+        android:id="@+id/openRG"
+        android:layout_width="250px"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/openHJ"
+        android:layout_marginLeft="20px"
+        android:text="打开软管镜" />
+
+    <Button
+        android:id="@+id/takePhoto"
+        android:layout_width="250px"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/openRG"
+        android:layout_marginLeft="20px"
+        android:text="拍照" />
+
+    <Button
+        android:id="@+id/record"
+        android:layout_width="250px"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/takePhoto"
+        android:layout_marginLeft="20px"
+        android:text="录像" />
+
+    <Button
+        android:id="@+id/setting"
+        android:layout_width="250px"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/record"
+        android:layout_marginLeft="20px"
+        android:text="功能" />
+
+
+    <SurfaceView
+        android:id="@+id/surfaceView02"
+        android:layout_width="30px"
+        android:layout_height="30px"/>
+<!--        android:layout_marginLeft="700px"-->
+<!--        android:layout_marginTop="100px" -->
+<!--        />-->
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="800px"-->
+<!--        android:layout_height="600px"-->
+<!--        android:layout_marginLeft="480px"-->
+<!--        android:layout_marginTop="100px"-->
+<!--        android:background="#000000">-->
+
+<!--    </RelativeLayout>-->
+
+    <RelativeLayout
+        android:layout_width="2560px"
+        android:layout_height="100px"
+        android:background="#009688">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="40px"
+            android:text="EVA Endoscope"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="2560px"
+        android:layout_height="100px"
+        android:layout_marginTop="1500px"
+        android:background="#009688">
+    </RelativeLayout>
+
+</RelativeLayout>
